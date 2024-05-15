@@ -4,7 +4,7 @@
 function saludar(){
     alert("¡BUENOS DIAS!")
 }
-saludar()
+saludar();
 
 //Con parámetros, sin valor retorno
 function mostrarNombre(nombre){
@@ -17,8 +17,8 @@ mostrarNombre(nombre);
 function mensaje(){
     return "Lindo Día!!"
 }
-mensaje_saludo = mensaje()
-alert(mensaje_saludo)
+mensaje_saludo = mensaje();
+alert(mensaje_saludo);
 
 //Con parámetros, con retorno
 let numero1 = prompt("Ingrese el primer número:");
